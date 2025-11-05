@@ -26,8 +26,8 @@ This project demonstrates:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/BioPipeline.git
-   cd BioPipeline
+   git clone https://github.com/anjali14-ai/bio-pipeline.git
+   cd bio-pipeline
    ```
 
 2. (Optional) Create a virtual environment and install dependencies:
@@ -41,7 +41,7 @@ This project demonstrates:
    ```bash
    jupyter lab
    ```
-   Then open `biopipeline.ipynb`.
+   Then open `bio-pipeline.ipynb`.
 
 ---
 
@@ -156,7 +156,7 @@ Thumbs.db
 ---
 
 ## 📢 Author
-Developed by **Dholu**, M.Sc. Zoology student and researcher in computational biology.
+Developed by Anjali, M.Sc. Zoology researcher in computational biology.
 
 ---
 
