@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert/
+.env
+.venv/
+venv/
+ENV/
+env/
+*.log
+
+# Data
+data/
+results/
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.pickle
+
+# OS
+.DS_Store
+Thumbs.db

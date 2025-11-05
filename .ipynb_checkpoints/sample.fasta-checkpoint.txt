@@ -1,0 +1,8 @@
+>geneA Homo sapiens mitochondrial
+ATGCGTACGTAGCTAGCTAGCTAGCGT
+>geneB Mus musculus nuclear
+ATGCGTAGCTAGCTGATCGTAGCTAGC
+>geneC Saccharomyces_cerevisiae enzyme
+ATGGCTAGCTAGCGTAGCATCGATGCA
+>geneD hypothetical_protein
+ATGAAATTTGGGCCCTTTAAAGGCCAA

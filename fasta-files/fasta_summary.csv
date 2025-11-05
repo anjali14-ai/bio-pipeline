@@ -1,0 +1,5 @@
+Gene_ID,Description,Length_bp,GC_Content(%)
+geneA,geneA Homo sapiens mitochondrial,27,51.85
+geneB,geneB Mus musculus nuclear,27,51.85
+geneC,geneC Saccharomyces_cerevisiae enzyme,27,51.85
+geneD,geneD hypothetical_protein,27,40.74
