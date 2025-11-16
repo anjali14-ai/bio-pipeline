@@ -21,11 +21,17 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install biopython
+          - name: Run basic script test
+  run: |
+    python - <<EOF
+    from Bio import SeqIO
+    from Bio.SeqUtils import gc_fraction
 
-      - name: Run basic script test
-        run: |
-          python - <<EOF
-          from Bio.Seq import Seq
-          print("Biopython working. Example GC:", Seq("ATGC").gc_fraction()*100)
-          EOF
+    record = SeqIO.read("fasta-files/sample.fasta", "fasta")
+    seq = record.seq
 
+    print("Length:", len(seq))
+    print("GC%:", gc_fraction(seq) * 100)
+    EOF
+
+          
